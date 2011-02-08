@@ -1,0 +1,18 @@
+The goal of revision control:
+  Track all steps in development.
+  Facilitate collaboration between multiple developers and development efforts.
+
+Revision control concepts
+- revisions & commits
+- diffs
+- branches
+- 3-way diffs
+- conflicts
+
+Traditional version control (RCS/CVS/Subversion)
+  Central repository for tracking changes.
+  Multiple developers make changes and "commit" to repository.
+
+Distributed version control (Git/Mercurial)
+  Each developer commits changes to private repositories.
+  Developers "push" and "pull" changes to and from repositories as needed.
