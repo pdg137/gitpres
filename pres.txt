@@ -2,6 +2,12 @@ The goal of revision control:
   Track all steps in development.
   Facilitate collaboration between multiple developers and development efforts.
 
+Create a simple Git repository:
+
+A--B--C---F--G
+    \    /
+     D--E
+
 Revision control concepts
 - revisions & commits
 - diffs
@@ -17,12 +23,15 @@ Distributed version control (Git/Mercurial)
   Each developer commits changes to private repositories.
   Developers "push" and "pull" changes to and from repositories as needed.
 
-Create a simple Git repository:
+Some major differences going from Subversion to Git
+- Entire copies of files are stored rather than diffs
+- No sequential version numbering (hashes)
+- Each developer has his own repository (backup issues)
+- Branches and merges happen all the time
+- Conflict resolution is explicitly logged
 
-A--B--C---F--G
-    \    /
-     D--E
+Point to discuss - no explicit concept of a set of changes that does not include the entire history of the repository.
+
+Make a remote repository on github...
 
 git log --oneline --graph
-
-Pull from a remote repository:
