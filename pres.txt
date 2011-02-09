@@ -6,7 +6,7 @@ Revision control concepts
 - revisions & commits
 - diffs
 - branches
-- 3-way diffs
+- merges
 - conflicts
 
 Traditional version control (RCS/CVS/Subversion)
@@ -16,3 +16,13 @@ Traditional version control (RCS/CVS/Subversion)
 Distributed version control (Git/Mercurial)
   Each developer commits changes to private repositories.
   Developers "push" and "pull" changes to and from repositories as needed.
+
+Create a simple Git repository:
+
+A--B--C---F--G
+    \    /
+     D--E
+
+git log --oneline --graph
+
+Pull from a remote repository:
