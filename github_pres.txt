@@ -1,0 +1,52 @@
+What is GitHub
+
+- Git
+- Company
+- Server setup
+
+Getting started with GitHub
+
+- Register an account
+- SSH keys
+- Local Git setup
+
+Data GitHub stores beyond Git
+
+- Accounts
+- Repository lists
+- Forks
+- Comments
+- Pull requests
+- Issues
+
+Philosophical digression
+
+- Is it a good idea to trust a central server that you don't control with all this data?
+- Why doesn't git do these things? ESPECIALLY pull requests.
+
+Fancy features that USE Git:
+
+- Gists
+- Wiki
+- GitHub pages
+
+Web features that enhance the experience:
+
+- Contribution graphs, lists
+- Link to lines of code
+- Downloads
+- Syntax highlighting
+- Markdown / Textile formatting
+- Image diffing
+- Search - NOT!
+
+GitHub API
+
+- Git doesn't have an API!!!!!
+- This is great.
+
+Building your own mini-GitHub
+
+- gitolite - really easy setup, minimal
+- gitlab
+- other suggestions?

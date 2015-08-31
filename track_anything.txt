@@ -1,0 +1,17 @@
+Multiple branches
+- put some code on a branch
+- check changes on a branch
+	common = "!sh -c 'for i in `git show-branch --merge-base $@`; do git log -1 $i; done'"
+    git log A --not B
+	gitk A --not B
+	--oneline --graph
+	
+Remote branches
+- the word "remote" means a lot of things in git
+- a "remote" can be any other repository that you can access
+- look at the config file
+- push a branch to a server
+- make another change to the branch
+  - important point - there are three different versions of the branch!
+
+Tracking branches
