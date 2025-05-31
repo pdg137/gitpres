@@ -4,9 +4,9 @@ The goal of revision control:
 
 Create a simple Git repository:
 
-A--B--C---F--G
-    \    /
-     D--E
+A → B →  C  → F → G
+     ↘      ↗
+       D → E
 
 Revision control concepts
 - revisions & commits
